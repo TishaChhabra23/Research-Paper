@@ -1,0 +1,12 @@
+Classification Report (TTA)
+============================================================
+              precision    recall  f1-score   support
+
+      glioma     0.9722    0.9333    0.9524        75
+  meningioma     0.9907    0.9958    0.9932       960
+   pituitary     0.9977    0.9955    0.9966       887
+      normal     1.0000    1.0000    1.0000       461
+
+    accuracy                         0.9945      2383
+   macro avg     0.9902    0.9812    0.9856      2383
+weighted avg     0.9945    0.9945    0.9945      2383

@@ -1,0 +1,69 @@
+# ==========================================
+# Git Ignore for Brain Tumor Research Repo
+# ==========================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+.virtual_documents/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+__MACOSX/
+
+# IDE & Editor Configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Large Heavy Model Checkpoints (>100MB Git file limit)
+# Note: Keep architecture scripts and small evaluation npz/json artifacts tracked
+*.h5
+*.keras
+*.weights.h5
+*.ckpt
+*.ckpt.*
+*.pt
+*.pth
+/models/
+/checkpoints/
+
+# Raw Datasets & Temporary Preprocessing Directories
+# Download dataset instructions are documented in README.md
+/clean_dataset/
+/split_data/
+/dataset/
+/data/
+/kaggle/
+*.zip
+*.tar
+*.gz
+*.rar
+
+# Training Logs & Profiles
+*.log
+runs/
+wandb/
+.tensorboard/

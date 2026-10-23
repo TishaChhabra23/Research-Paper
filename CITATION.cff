@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+message: "If you use this research, code, or benchmark in your work, please cite it as below."
+title: "Comparative Analysis of Advanced CNN Architectures for Multi-Class Brain Tumor Classification Using MRI"
+abstract: >-
+  Early detection and planning for treatment of brain tumors is essential and is facilitated
+  by magnetic resonance imaging (MRI). Manual reading of MRI is labor intensive and can be
+  subject to mistakes since various types of tumors share similar visual features. In this
+  research, a deep learning system for the classification of brain tumors into multiple
+  classes (glioma, meningioma, pituitary, and normal brain) using MRI images is presented.
+  Tumor classification was performed using advanced pre-trained deep learning architectures
+  employing transfer learning and fine-tuning: EfficientNetV2, DenseNet121, and ResNet50V2.
+  Experimental results demonstrated that EfficientNetV2 achieved 98.92% accuracy, the best
+  Macro-AUC score of 0.9999, and the lowest misclassification rate. Grad-CAM visualization
+  was employed to verify spatial interpretability and clinical relevance.
+authors:
+  - family-names: Chhabra
+    given-names: Tisha
+    affiliation: "Department of Computer Science, Christ University, Bengaluru, India"
+    orcid: "https://orcid.org/0009-0006-9603-0512"
+    email: "Chhabratisha9@gmail.com"
+  - family-names: Upreti
+    given-names: Kamal
+    affiliation: "Department of Computer Science, Christ University, Bengaluru, India"
+    orcid: "https://orcid.org/0000-0003-0665-530X"
+    email: "kamalupreti1989@gmail.com"
+  - family-names: Gupta
+    given-names: Varuna
+    affiliation: "Department of Computer Science, Christ University, Bengaluru, India"
+    orcid: "https://orcid.org/0000-0003-0887-1276"
+    email: "varunagupta.cs@gmail.com"
+conference:
+  name: "2026 IEEE International Conference on Next-Gen Intelligent Computing and Applications (ICONICA)"
+  location: "Bangalore, India"
+  date-start: "2026-08-28"
+  date-end: "2026-08-29"
+doi: "10.1109/ICONICA70605.2026.11736701"
+url: "https://doi.org/10.1109/ICONICA70605.2026.11736701"
+repository-code: "https://github.com/Tisha-Chhabra/Brain-Tumor-Classification-CNN-MRI"
+keywords:
+  - "brain-tumor-detection"
+  - "deep-learning"
+  - "magnetic-resonance-imaging"
+  - "mri-classification"
+  - "efficientnetv2"
+  - "densenet121"
+  - "resnet50v2"
+  - "transfer-learning"
+  - "grad-cam"
+  - "explainable-ai"
+license: "MIT"
+date-released: "2026-08-29"
