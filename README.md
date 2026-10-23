@@ -239,8 +239,8 @@ To validate model predictions and ensure transparency for clinical adoption, we 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Tisha-Chhabra/Brain-Tumor-Classification-CNN-MRI.git
-cd Brain-Tumor-Classification-CNN-MRI
+git clone https://github.com/TishaChhabra23/Research.git
+cd Research
 ```
 
 ### 2. Environment Setup
